@@ -1,0 +1,52 @@
+
+
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(400deg, #2258a4, #633309);
+    /*font-family: 'Dosis', sans-serif;*/
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+.container{
+    width: 20%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-direction: row;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: #dac0bd;*/
+    font-size: 16px;
+
+    border-radius: 10px; /*quina da borda*/
+    color: #232323;
+    background: #ffffff40; /*fundo cinza*/
+    padding: 20px 20px;
+}
+
+.manha, .tarde, .noite, .dormir{
+    padding-left: 30px;
+    width: 100%;
+    margin: 6%;
+}
+input{
+    border: none;
+    font-style: none;
+}
+
+
+tbody{
+    align-items: center;
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
